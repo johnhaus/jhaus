@@ -18,7 +18,7 @@
 .bar {
   width: 100%;
   height: 4px;
-  background-color: #fff;
+  background-color: $white;
   position: absolute;
 }
 
@@ -26,7 +26,7 @@ span::before,
 span::after {
   content: "";
   display: block;
-  background-color: #fff;
+  background-color: $white;
   width: 100%;
   height: 4px;
   position: absolute;
@@ -70,7 +70,7 @@ span::after {
 }
 
 #nav a {
-  color: #fff;
+  color: $white;
   text-decoration: none;
   line-height: 70vw;
   position: absolute;
@@ -84,7 +84,7 @@ span::after {
 }
 
 #nav a:hover {
-  background: #357FFD;
+  background: $light-blue;
 }
 
 ul {
@@ -104,7 +104,7 @@ ul {
   right: -10vw;
   position: fixed;
   transition: all 1s ease-in-out;
-  background: #074684;
+  background: $dark-blue;
   box-shadow: 0 0px 0px rgba(4, 26, 62, 0.5);
 }
 
@@ -138,6 +138,8 @@ nav.visible li:nth-child(3){
   box-shadow: 0 0px 80px rgba(4, 26, 62, 0.5);
 }
 
+// Save this for future addition of another navbar link
+
 // nav.visible li:last-child{
 //   width: 50vw;
 //   height: 50vw;
@@ -164,6 +166,8 @@ nav.visible li:nth-child(3) a {
     text-indent: 17vw !important;
 
 }
+
+// Save for future navbar link
 
 // nav.visible li:last-child a {
 //   line-height: 70vw !important;
@@ -195,7 +199,7 @@ article p {
 }
 
 article a {
-  color: #fff;
+  color: $white;
   text-decoration: none;
   opacity: .2;
   font-size: 12px;
