@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 
 .bars {
   /*   background-color:pink; */
-  position: absolute;
+  position: fixed;
   width: 27px;
   height: 27px;
   top: 30px;
@@ -102,7 +104,7 @@ ul {
   height: 20vw;
   top: -10vw;
   right: -10vw;
-  position: absolute;
+  position: fixed;
   transition: all 1s ease-in-out;
   background: #074684;
   box-shadow: 0 0px 0px rgba(4, 26, 62, 0.5);

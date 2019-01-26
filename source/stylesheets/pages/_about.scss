@@ -1,10 +1,10 @@
-#about {
-  height: 100vh;
+.pages {
+  height: 200vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  background-image: linear-gradient(0deg, white 50%, gray 50%);
+  // background-image: linear-gradient(0deg, white 80%, #357FFD 20%);
   img {
     width: 150px;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
@@ -30,4 +30,12 @@
   .fa-heart {
     color: #D23333;
   }
+}
+
+.top {
+  z-index: -1;
+  background-color: #074684;
+  height: 85px;
+  width: 100%;
+  position: fixed;
 }
