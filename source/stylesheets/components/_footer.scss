@@ -4,9 +4,10 @@
   padding: 10px;
 }
 .footer a {
-  color: #ffffff;
+  color: $white;
   &:hover {
-    color: #aaaaaa;
+    color: $light-blue;
+    text-decoration: none;
   }
 }
 .footer-padding {
