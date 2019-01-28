@@ -1,5 +1,5 @@
 .pages {
-  height: 200vh;
+  height: 250vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -33,9 +33,22 @@
 }
 
 .top-navbar-background {
-  z-index: -1;
+  z-index: +1;
   background-color: $dark-blue;
   height: 85px;
   width: 100%;
   position: fixed;
+}
+
+.website-image {
+  height: 325px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 8px rgba(33,33,33,0.8);
+  margin: 15px;
 }
