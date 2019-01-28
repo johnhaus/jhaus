@@ -9,13 +9,6 @@
     width: 150px;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
   }
-  h1 {
-    font-size: 30px;
-    font-weight: bolder;
-    margin-bottom: 30px;
-    margin-top: 0px;
-    color: rgba(0,0,0,0.7);
-  }
   h2 {
     font-size: 17px;
     font-weight: bold;
@@ -30,14 +23,6 @@
   .fa-heart {
     color: #D23333;
   }
-}
-
-.top-navbar-background {
-  z-index: +1;
-  background-color: $dark-blue;
-  height: 85px;
-  width: 100%;
-  position: fixed;
 }
 
 .website-image {
