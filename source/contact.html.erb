@@ -4,9 +4,18 @@ title: John Haus - Contact
 
 <div class="pages top-padding">
   <div>
-    <p>
+    <p class="text-setup">
       Contact
     </p>
-    <a href="/">Home</a>
+    <div class="container">
+      <div class="contact-form col-xs-12 col-sm-6 col-sm-offset-3">
+        <form method="POST" action="https://formspree.io/YOUREMAILHERE">
+          <div class="contact-padding"><input type="text" name="name" placeholder="Full name"></div>
+          <div class="contact-padding"><input type="email" name="email" placeholder="Your email"></div>
+          <div class="contact-padding"><textarea name="message" placeholder="Message"></textarea></div>
+          <div class="contact-padding"><button type="submit">Send</button></div>
+        </form>
+      </div>
+    </div>
   </div>
 </div>

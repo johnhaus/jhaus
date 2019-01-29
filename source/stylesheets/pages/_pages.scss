@@ -51,3 +51,28 @@
 .top-padding {
   padding-top: 80px;
 }
+
+.container {
+  display: flex;
+}
+
+.contact-padding {
+  padding: 10px;
+}
+
+input, textarea, button {
+  width: 100%;
+}
+
+button {
+  color: white;
+  font-weight: bolder;
+  background-color: orange;
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  &:hover {
+    background-color: darkorange;
+  }
+}
