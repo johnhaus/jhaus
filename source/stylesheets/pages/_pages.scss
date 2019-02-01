@@ -51,7 +51,7 @@ h1 {
   padding: 6px;
 }
 
-input, textarea, button {
+input, textarea {
   width: 100%;
 }
 
@@ -59,10 +59,8 @@ button {
   color: white;
   font-weight: bolder;
   background-color: orange;
-  width: 100%;
+  padding: 10px 50px;
   border-radius: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
   &:hover {
     background-color: darkorange;
   }
