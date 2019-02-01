@@ -1,0 +1,1 @@
+function clickNavbar(){function t(){e.classList.toggle("active"),n.classList.toggle("visible")}var e=document.getElementById("nav-action"),n=document.getElementById("nav");e.addEventListener("click",t,!1)}
