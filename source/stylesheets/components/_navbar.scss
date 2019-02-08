@@ -231,4 +231,11 @@ article a:hover {
     letter-spacing: 0px;
     margin-right: 50px;
   }
+  a {
+    color: $white;
+    &:hover {
+      color: $light-blue;
+      text-decoration: none;
+    }
+  }
 }
