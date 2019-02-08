@@ -26,13 +26,10 @@ h1 {
   border-radius: 3px;
   box-shadow: 3px 3px 8px rgba(33,33,33,0.8);
   margin: 55px;
-
   height: 430px;
-
   @media(max-width: 900px) {
     height: 330px;
   }
-
   @media(max-width: 500px) {
     height: 200px;
   }
@@ -65,17 +62,6 @@ input, textarea {
   width: 100%;
 }
 
-button {
-  color: white;
-  font-weight: bolder;
-  background-color: orange;
-  padding: 10px 50px;
-  border-radius: 10px;
-  &:hover {
-    background-color: darkorange;
-  }
-}
-
 .bottom-padding {
   padding-bottom: 50px;
 }
@@ -86,19 +72,6 @@ button {
 
 .down-arrow {
   color: $dark-blue;
-}
-
-.contact-button {
-  color: white;
-  font-weight: bolder;
-  background-color: orange;
-  padding: 10px 50px;
-  border-radius: 10px;
-  &:hover {
-    background-color: darkorange;
-    text-decoration: none;
-    color: white;
-  }
 }
 
 .background-picture {
