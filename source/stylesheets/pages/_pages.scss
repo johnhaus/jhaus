@@ -17,7 +17,6 @@ h1 {
 }
 
 .website-image {
-  height: 430px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
@@ -27,6 +26,16 @@ h1 {
   border-radius: 3px;
   box-shadow: 3px 3px 8px rgba(33,33,33,0.8);
   margin: 55px;
+
+  height: 430px;
+
+  @media(max-width: 900px) {
+    height: 330px;
+  }
+
+  @media(max-width: 500px) {
+    height: 200px;
+  }
 }
 
 .border {
@@ -94,5 +103,4 @@ button {
 
 .background-picture {
   background-size: cover;
-  height: calc(100vh - 80px);
 }
