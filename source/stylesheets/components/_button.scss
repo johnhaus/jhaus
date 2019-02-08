@@ -1,0 +1,23 @@
+button {
+  color: white;
+  font-weight: bolder;
+  background-color: orange;
+  padding: 10px 50px;
+  border-radius: 10px;
+  &:hover {
+    background-color: darkorange;
+  }
+}
+
+.contact-button {
+  color: white;
+  font-weight: bolder;
+  background-color: orange;
+  padding: 10px 50px;
+  border-radius: 10px;
+  &:hover {
+    background-color: darkorange;
+    text-decoration: none;
+    color: white;
+  }
+}
