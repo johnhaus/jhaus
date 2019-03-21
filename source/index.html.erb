@@ -9,11 +9,22 @@ title: John Haus - Full Stack Web Developer
       <p class="text-setup">Looking to add a developer to your team?</p>
       <p class="text-setup">Contact me today and let's get a conversation started.</p>
       <a href="contact.html" class="contact-button ">Contact</a>
-      <div class="border top-margin"></div>
-      <p class="text-setup">Take a look at some of my projects below</p>
+      <p class="text-setup project-padding">Take a look at some of my projects below</p>
       <i class="fas fa-arrow-down fa-3x down-arrow"></i>
     </div>
     <div class="row">
+      <div>
+        <h3>React Projects</h3>
+        <div class="border top-margin"></div>
+        <% link_to 'https://johnhaus.github.io/gif-search/' do %>
+          <div class="website-image" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('<%= image_path "Gif-search.png" %>')">
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <div class="row">
+      <h3>Rails Projects</h3>
+      <div class="border top-margin"></div>
       <div>
         <div>
           <% link_to 'https://restaurant-advisor.herokuapp.com' do %>
