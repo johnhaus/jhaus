@@ -16,6 +16,18 @@ h1 {
   font-weight: bolder;
 }
 
+h3 {
+  font-size: 25px;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 35px;
+  color: $dark-blue;
+  font-weight: bolder;
+}
+
 .website-image {
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
@@ -48,6 +60,10 @@ h1 {
 
 .top-padding {
   padding-top: 80px;
+}
+
+.project-padding {
+  padding-top: 40px;
 }
 
 .container {
