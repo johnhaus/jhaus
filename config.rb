@@ -4,6 +4,7 @@ end
 
 activate :sprockets
 activate :directory_indexes
+activate :meta_tags
 
 set :images_dir, 'images'
 
